@@ -4,6 +4,8 @@ Független, statikus webdesign-demo a gyulai **Gumiklinika Bt.** számára. Nem 
 
 A leadfájl szerint a cégnek nincs saját weboldala; a nyilvános listák csak telefont és címet adnak. Ez a koncepció egy **műhely-munkalap / műszaki adatlap** nyelvet használ: szolgáltatás- és árlista, profilmérő, valamint időpontkérés egy nyomtatható munkalap-formában.
 
+**Élő demó:** https://archimre.github.io/gumiklinika-gyula/ — nyilvánosan elérhető, de `noindex` jelöléssel. A linket csak a bemutatás céljára ossza meg.
+
 ## Futtatás
 
 ```bash
