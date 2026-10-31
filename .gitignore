@@ -1,0 +1,4 @@
+.shots/
+.env
+.DS_Store
+*.log

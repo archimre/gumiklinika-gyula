@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gumiklinika Gyula – Webdesign-koncepció</title>
+  <meta name="description" content="Független webdesign-koncepció a gyulai Gumiklinika Bt. számára: szolgáltatások, profilmérő és időpontkérés. Bemutató oldal, nem hivatalos weboldal.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#eef0ea">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="hu_HU">
+  <meta property="og:title" content="Gumiklinika Gyula – Webdesign-koncepció">
+  <meta property="og:description" content="Workshop-munkalap koncepció: szolgáltatások, profilmérő és időpontkérés a gyulai Gumiklinika számára.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Ugrás a tartalomra</a>
+
+  <div class="topbar">
+    <div class="shell topbar-inner">
+      <p><span class="rec" aria-hidden="true"></span> Bemutató oldal // nem hivatalos weboldal</p>
+      <p>Gyula · Liszt Ferenc u. 4. · 46.6473 N / 21.2672 E</p>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Gumiklinika – kezdőlap">
+        <span class="brand-mark" aria-hidden="true">GK</span>
+        <span class="brand-text">
+          <strong>Gumiklinika</strong>
+          <small>Gumiszerviz / Gyula</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Fő navigáció">
+        <a href="#szolgaltatasok"><span>01</span>Szolgáltatások</a>
+        <a href="#profilmero"><span>02</span>Profilmérő</a>
+        <a href="#idoppont"><span>03</span>Időpont</a>
+        <a href="#kapcsolat"><span>04</span>Kapcsolat</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+36309553153">+36 30 955 3153</a>
+        <a class="btn btn-orange" href="#idoppont">Időpont</a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Menü megnyitása">
+          <span></span><span></span>
+        </button>
+      </div>
+
+      <div class="nav-menu" id="navMenu" hidden>
+        <a href="#szolgaltatasok"><span>01</span>Szolgáltatások</a>
+        <a href="#profilmero"><span>02</span>Profilmérő</a>
+        <a href="#idoppont"><span>03</span>Időpont</a>
+        <a href="#kapcsolat"><span>04</span>Kapcsolat</a>
+        <a class="nav-menu-phone" href="tel:+36309553153">+36 30 955 3153</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="mono-label">[ 01 / GUMISZERVIZ ]</p>
+          <h1><span>Gumi</span><span class="orange">klinika.</span></h1>
+          <p class="lead">Gumicsere, centrírozás, defektjavítás. Egy cím a Liszt Ferenc utcán, ahol a négy kerék egy műszak alatt, ellenőrizve kerül vissza az autóra.</p>
+          <div class="hero-actions">
+            <a class="btn btn-orange" href="#idoppont">Időpontot kérek <span aria-hidden="true">→</span></a>
+            <a class="btn" href="tel:+36309553153">+36 30 955 3153</a>
+          </div>
+          <dl class="readouts">
+            <div><dt>Hétfő–péntek</dt><dd>08:00–17:00</dd></div>
+            <div><dt>Szombat</dt><dd>08:00–12:00</dd></div>
+            <div><dt>Értékelés</dt><dd>4,8 <small>/ 26</small></dd></div>
+          </dl>
+          <p class="hero-note">Minta nyitvatartás · a valós időpontért hívd a műhelyt.</p>
+        </div>
+
+        <figure class="hero-figure">
+          <div class="photo-frame">
+            <img src="assets/tire-tread.jpg" width="1000" height="1498" alt="Kopott gumiabroncs futófelületének közeli képe – illusztráció">
+            <span class="crop tl" aria-hidden="true"></span>
+            <span class="crop tr" aria-hidden="true"></span>
+            <span class="crop bl" aria-hidden="true"></span>
+            <span class="crop br" aria-hidden="true"></span>
+            <span class="h-label hl-a">Specimen / 01</span>
+            <span class="h-label hl-b"><span class="dot" aria-hidden="true"></span> <span id="heroSeason">Téli üzemmód</span></span>
+            <span class="h-label hl-c">Futófelület / minta</span>
+            <span class="h-label hl-d">205 / 55 R16</span>
+            <span class="crosshair" aria-hidden="true"></span>
+            <span class="measure" aria-hidden="true"></span>
+          </div>
+          <figcaption>Illusztráció · Shixart1985 · CC BY 2.0</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="readout-bar">
+      <div class="shell readout-grid">
+        <div><span class="square" aria-hidden="true"></span><p>Műszak</p><strong>H–P 08–17</strong></div>
+        <div><span class="square" aria-hidden="true"></span><p>Szombat</p><strong>08–12</strong></div>
+        <div><span class="square" aria-hidden="true"></span><p>Telefon</p><strong>+36 30 955 3153</strong></div>
+        <div><span class="square" aria-hidden="true"></span><p>Cím</p><strong>Liszt Ferenc u. 4.</strong></div>
+      </div>
+    </div>
+
+    <section class="section services" id="szolgaltatasok">
+      <div class="shell">
+        <div class="section-head">
+          <span class="section-no">01</span>
+          <div class="section-title">
+            <p class="mono-label">Munkák / árak</p>
+            <h2>Szolgáltatások</h2>
+          </div>
+          <p class="section-note">Mintaárlista. A végösszeg a helyszíni állapotfelmérés után alakul ki. Az árak forintban értendők.</p>
+        </div>
+
+        <div class="service-table" role="table" aria-label="Szolgáltatások és árak">
+          <div class="service-head" role="row">
+            <span role="columnheader">Kód</span>
+            <span role="columnheader">Munka</span>
+            <span role="columnheader">Idő</span>
+            <span role="columnheader">Ár</span>
+            <span role="columnheader"><span class="sr-only">Kiválasztás</span></span>
+          </div>
+
+          <div class="service-row" role="row">
+            <span class="code" role="cell">GCS-01</span>
+            <div class="service-copy" role="cell"><h3>Gumicsere</h3><p>Négy kerék le- és felszerelése, nyomatékellenőrzés.</p></div>
+            <span class="duration" role="cell">45–60 perc</span>
+            <span class="price" role="cell">8 900 Ft</span>
+            <button class="pick" type="button" data-code="GCS-01">Kiválaszt <span aria-hidden="true">→</span></button>
+          </div>
+
+          <div class="service-row" role="row">
+            <span class="code" role="cell">CEN-02</span>
+            <div class="service-copy" role="cell"><h3>Centrírozás</h3><p>Négy kerék kiegyensúlyozása, súlyozás.</p></div>
+            <span class="duration" role="cell">30–40 perc</span>
+            <span class="price" role="cell">4 800 Ft</span>
+            <button class="pick" type="button" data-code="CEN-02">Kiválaszt <span aria-hidden="true">→</span></button>
+          </div>
+
+          <div class="service-row" role="row">
+            <span class="code" role="cell">DEF-03</span>
+            <div class="service-copy" role="cell"><h3>Defektjavítás</h3><p>Sérülés vizsgálata, javítás, tömítés.</p></div>
+            <span class="duration" role="cell">20–30 perc</span>
+            <span class="price" role="cell">3 500 Ft</span>
+            <button class="pick" type="button" data-code="DEF-03">Kiválaszt <span aria-hidden="true">→</span></button>
+          </div>
+
+          <div class="service-row" role="row">
+            <span class="code" role="cell">SZE-04</span>
+            <div class="service-copy" role="cell"><h3>Szelepcsere</h3><p>Szelephiba javítása, új szelep beépítése.</p></div>
+            <span class="duration" role="cell">15–20 perc</span>
+            <span class="price" role="cell">1 500 Ft <small>/ kerék</small></span>
+            <button class="pick" type="button" data-code="SZE-04">Kiválaszt <span aria-hidden="true">→</span></button>
+          </div>
+
+          <div class="service-row" role="row">
+            <span class="code" role="cell">TAR-05</span>
+            <div class="service-copy" role="cell"><h3>Gumitárolás</h3><p>Tisztítás, jelölés, száraz tárolás szezon között.</p></div>
+            <span class="duration" role="cell">szezon</span>
+            <span class="price" role="cell">12 000 Ft <small>/ garnitúra</small></span>
+            <button class="pick" type="button" data-code="TAR-05">Kiválaszt <span aria-hidden="true">→</span></button>
+          </div>
+
+          <div class="service-row" role="row">
+            <span class="code" role="cell">ELL-06</span>
+            <div class="service-copy" role="cell"><h3>Állapotfelmérés</h3><p>Profilmélység, oldalfal, nyomás, egyenletes kopás.</p></div>
+            <span class="duration" role="cell">15 perc</span>
+            <span class="price" role="cell">0 Ft</span>
+            <button class="pick" type="button" data-code="ELL-06">Kiválaszt <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workshop-band">
+      <div class="shell workshop-grid">
+        <figure class="workshop-figure">
+          <img src="assets/tire-workshop.jpg" width="1100" height="1650" alt="Gumiszerelő kéz a centrírozó gép kezelőpaneljén – illusztráció">
+          <figcaption>Illusztráció · Shixart1985 · CC BY 2.0</figcaption>
+        </figure>
+        <div class="workshop-copy">
+          <p class="mono-label">[ Műhely / Gyula ]</p>
+          <h2>Négy kerék.<br>Egy műszak.</h2>
+          <p>Nem csak lecseréljük a garnitúrát: megnézzük a profilmélységet, az oldalfalat, a nyomást és a kopás egyenletességét. Utána nyomatékra húzzuk, és elmondjuk, mit érdemes figyelni a következő szezonig.</p>
+          <ol class="process">
+            <li><span>01</span><div><h3>Egyeztetés</h3><p>Telefonon vagy a munkalapon.</p></div></li>
+            <li><span>02</span><div><h3>Felmérés</h3><p>Profil, oldalfal, nyomás.</p></div></li>
+            <li><span>03</span><div><h3>Munka</h3><p>Csere, centrírozás, nyomaték.</p></div></li>
+            <li><span>04</span><div><h3>Átadás</h3><p>Ellenőrzés és tanács.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tread" id="profilmero">
+      <div class="shell">
+        <div class="section-head">
+          <span class="section-no">02</span>
+          <div class="section-title">
+            <p class="mono-label">Mérés / döntés</p>
+            <h2>Profilmérő</h2>
+          </div>
+          <p class="section-note">Állítsd be a mért profilmélységet, és válaszd ki az évszakot. Tájékoztató becslés – a tényleges állapotot a műhelyben ellenőrizzük.</p>
+        </div>
+
+        <div class="gauge-grid">
+          <div class="gauge-panel">
+            <div class="season-switch" role="group" aria-label="Évszak">
+              <button class="season" type="button" data-season="summer">Nyári</button>
+              <button class="season is-active" type="button" data-season="winter">Téli</button>
+            </div>
+
+            <p class="gauge-label">Mért profilmélység</p>
+            <div class="gauge-value"><span id="gaugeMm">5,5</span><small>mm</small></div>
+
+            <div class="gauge-control">
+              <div class="gauge-track" aria-hidden="true">
+                <span class="zone red"></span>
+                <span class="zone amber"></span>
+                <span class="zone green"></span>
+              </div>
+              <input type="range" id="treadRange" min="1.6" max="8" step="0.1" value="5.5" aria-label="Mért profilmélység milliméterben">
+              <div class="gauge-ticks" aria-hidden="true"><span>1,6</span><span>4,0</span><span>8,0</span></div>
+            </div>
+
+            <div class="verdict" id="verdict" aria-live="polite">
+              <span class="verdict-tag" id="verdictTag">Megfelelő</span>
+              <p id="verdictText">Téli üzemmódra is elegendő profilmélység.</p>
+            </div>
+            <p class="note">Jogi minimum 1,6 mm. Téli guminál 4 mm alatt cserét javaslunk. A mérés nem helyettesíti a szakmai vizsgálatot.</p>
+          </div>
+
+          <figure class="sidewall">
+            <img src="assets/tire-sidewall.jpg" width="1100" height="681" alt="Téli gumiabroncs oldalfala a 3PMSF és M+S jelöléssel – illusztráció">
+            <span class="callout c1">3PMSF</span>
+            <span class="callout c2">M+S</span>
+            <span class="callout c3">175/70 R14</span>
+            <figcaption>Illusztráció · A7N8X · CC BY-SA 3.0</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="idoppont">
+      <div class="shell">
+        <div class="section-head">
+          <span class="section-no">03</span>
+          <div class="section-title">
+            <p class="mono-label">Munkalap / időpont</p>
+            <h2>Időpontkérés</h2>
+          </div>
+          <p class="section-note">Ez egy demó munkalap: az adatok nem kerülnek továbbításra. A valós időpontot telefonon egyeztesd.</p>
+        </div>
+
+        <div class="booking-grid" id="bookingGrid">
+          <form class="job-form" id="bookingForm" novalidate>
+            <div class="form-head">
+              <span>Munkalap / új</span>
+              <span id="formNo">GK-—</span>
+            </div>
+
+            <div class="field wide">
+              <label for="service">Szolgáltatás <span aria-hidden="true">*</span></label>
+              <select id="service" name="service">
+                <option value="GCS-01" data-code="GCS-01" data-duration="45–60 perc" data-price="8 900 Ft" data-price-value="8900">GCS-01 — Gumicsere</option>
+                <option value="CEN-02" data-code="CEN-02" data-duration="30–40 perc" data-price="4 800 Ft" data-price-value="4800">CEN-02 — Centrírozás</option>
+                <option value="DEF-03" data-code="DEF-03" data-duration="20–30 perc" data-price="3 500 Ft" data-price-value="3500">DEF-03 — Defektjavítás</option>
+                <option value="SZE-04" data-code="SZE-04" data-duration="15–20 perc" data-price="1 500 Ft / kerék" data-price-value="1500">SZE-04 — Szelepcsere</option>
+                <option value="TAR-05" data-code="TAR-05" data-duration="szezon" data-price="12 000 Ft / garnitúra" data-price-value="12000">TAR-05 — Gumitárolás</option>
+                <option value="ELL-06" data-code="ELL-06" data-duration="15 perc" data-price="0 Ft" data-price-value="0">ELL-06 — Állapotfelmérés</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="name">Név <span aria-hidden="true">*</span></label>
+              <input id="name" name="name" autocomplete="name" placeholder="Kovács Péter">
+              <p class="error" id="errName" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="phone">Telefon <span aria-hidden="true">*</span></label>
+              <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+36 30 123 4567">
+              <p class="error" id="errPhone" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="car">Autó / rendszám</label>
+              <input id="car" name="car" placeholder="pl. Suzuki Swift / ABC-123">
+            </div>
+
+            <div class="field">
+              <label for="size">Gumiméret</label>
+              <input id="size" name="size" placeholder="205/55 R16" inputmode="text">
+              <p class="error" id="errSize" aria-live="polite"></p>
+            </div>
+
+            <div class="field wide">
+              <label for="date">Dátum <span aria-hidden="true">*</span></label>
+              <input id="date" name="date" type="date">
+              <p class="error" id="errDate" aria-live="polite"></p>
+            </div>
+
+            <fieldset class="slots">
+              <legend>Idősáv <span aria-hidden="true">*</span></legend>
+              <div class="slot-grid">
+                <label><input type="radio" name="slot" value="08:00–10:00" checked><span>08–10</span></label>
+                <label><input type="radio" name="slot" value="10:00–12:00"><span>10–12</span></label>
+                <label><input type="radio" name="slot" value="13:00–15:00"><span>13–15</span></label>
+                <label><input type="radio" name="slot" value="15:00–17:00"><span>15–17</span></label>
+              </div>
+            </fieldset>
+            <p class="error slots-error" id="errSlot" aria-live="polite"></p>
+
+            <div class="field wide">
+              <label for="note">Megjegyzés</label>
+              <input id="note" name="note" placeholder="pl. téli garnitúra a csomagtartóban">
+            </div>
+
+            <p class="form-demo">Demó: a munkalap nem kerül továbbításra, adatot nem tárolunk.</p>
+            <button class="btn btn-orange btn-wide" type="submit">Munkalap rögzítése</button>
+          </form>
+
+          <aside class="ticket" id="ticket" aria-label="Előzetes munkalap">
+            <div class="ticket-head"><span>Előzetes munkalap</span><span id="ticketNo">GK-—</span></div>
+            <div class="ticket-stamp-row"><span class="ticket-stamp" aria-hidden="true">Demó</span></div>
+            <dl class="ticket-rows">
+              <div><dt>Szolgáltatás</dt><dd id="sumService">Gumicsere</dd></div>
+              <div><dt>Kód</dt><dd id="sumCode">GCS-01</dd></div>
+              <div><dt>Időtartam</dt><dd id="sumDuration">45–60 perc</dd></div>
+              <div><dt>Gumiméret</dt><dd id="sumSize">—</dd></div>
+              <div><dt>Időpont</dt><dd id="sumDateTime">—</dd></div>
+              <div class="total"><dt>Becsült ár</dt><dd id="sumPrice">8 900 Ft</dd></div>
+            </dl>
+            <div class="barcode" aria-hidden="true"></div>
+            <p class="ticket-code">GK / 2026 / DEMO</p>
+            <p class="ticket-note">Nem küldjük tovább. A végösszeg a helyszíni állapotfelmérés után.</p>
+          </aside>
+        </div>
+
+        <noscript><p class="form-demo">Az űrlap működéséhez engedélyezze a JavaScriptet. Telefonon is elérhető: +36 30 955 3153.</p></noscript>
+
+        <div class="booking-success" id="bookingSuccess" hidden>
+          <span class="success-mark" aria-hidden="true">✓</span>
+          <p class="mono-label">Munkalap rögzítve / demó</p>
+          <h3 id="successNo">GK-—</h3>
+          <p>Ez a demó itt véget ér – valódi időpont nem került lefoglalásra.</p>
+          <dl>
+            <div><dt>Szolgáltatás</dt><dd id="doneService">—</dd></div>
+            <div><dt>Időpont</dt><dd id="doneDateTime">—</dd></div>
+            <div><dt>Gumiméret</dt><dd id="doneSize">—</dd></div>
+            <div><dt>Becsült ár</dt><dd id="donePrice">—</dd></div>
+          </dl>
+          <button class="btn" id="newBooking" type="button">Új munkalap</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="kapcsolat">
+      <div class="shell">
+        <div class="section-head">
+          <span class="section-no">04</span>
+          <div class="section-title">
+            <p class="mono-label">Telephely / nyitvatartás</p>
+            <h2>Kapcsolat</h2>
+          </div>
+          <p class="section-note">A cím és a telefonszám nyilvános listákból származik. A nyitvatartás mintaadat – telefonon egyeztesd.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <p class="mono-label">Telephely</p>
+            <h3>Gumiklinika Bt.</h3>
+            <address>5700 Gyula<br>Liszt Ferenc utca 4.</address>
+            <a class="big-phone" href="tel:+36309553153">+36 30 955 3153</a>
+            <div class="contact-actions">
+              <a class="btn btn-orange" href="https://www.google.com/maps/search/?api=1&amp;query=Gumiklinika%20Bt.%2C%205700%20Gyula%2C%20Liszt%20Ferenc%20utca%204" target="_blank" rel="noopener">Útvonal <span aria-hidden="true">↗</span></a>
+              <a class="btn" href="tel:+36309553153">Hívás</a>
+            </div>
+
+            <div class="hours-wrap">
+              <div class="hours-head"><span>Nyitvatartás</span><span class="tag-sample">Minta</span></div>
+              <dl class="hours">
+                <div data-day="1"><dt>Hétfő</dt><dd>08:00–17:00</dd></div>
+                <div data-day="2"><dt>Kedd</dt><dd>08:00–17:00</dd></div>
+                <div data-day="3"><dt>Szerda</dt><dd>08:00–17:00</dd></div>
+                <div data-day="4"><dt>Csütörtök</dt><dd>08:00–17:00</dd></div>
+                <div data-day="5"><dt>Péntek</dt><dd>08:00–17:00</dd></div>
+                <div data-day="6"><dt>Szombat</dt><dd>08:00–12:00</dd></div>
+                <div data-day="0"><dt>Vasárnap</dt><dd>zárva</dd></div>
+              </dl>
+            </div>
+
+            <p class="rating"><strong>4,8 / 5</strong> · 26 értékelés <a href="https://local.infobel.hu/HU102155001-066646462/gumiklinika-gyula.html" target="_blank" rel="noopener">Infobel ↗</a></p>
+          </div>
+
+          <figure class="map">
+            <svg viewBox="0 0 600 440" role="img" aria-label="Sematikus térképvázlat a Liszt Ferenc utca 4. környékéről">
+              <rect width="600" height="440" fill="#f8f9f4"/>
+              <g stroke="#cfd5ca" stroke-width="1">
+                <path d="M0 58H600M0 126H600M0 198H600M0 272H600M0 350H600"/>
+                <path d="M70 0V440M168 0V440M268 0V440M372 0V440M470 0V440M548 0V440"/>
+              </g>
+              <g stroke="#aeb7a9" stroke-width="7" opacity=".8">
+                <path d="M0 198H600"/>
+                <path d="M268 0V440"/>
+                <path d="M470 0V440"/>
+                <path d="M0 350H600"/>
+              </g>
+              <path d="M0 350H268V198H470" fill="none" stroke="#1b3bff" stroke-width="3" stroke-dasharray="9 7"/>
+              <circle cx="470" cy="198" r="15" fill="none" stroke="#1b3bff" stroke-width="2"/>
+              <circle cx="470" cy="198" r="5" fill="#1b3bff"/>
+              <g fill="#101410" font-family="IBM Plex Mono, monospace" font-size="11">
+                <text x="18" y="188">LISZT FERENC U.</text>
+                <text x="280" y="24">GYULA / BELVÁROS</text>
+                <text x="480" y="188">4.</text>
+                <text x="18" y="430">46.6473 N / 21.2672 E</text>
+              </g>
+              <g stroke="#101410" stroke-width="2">
+                <path d="M470 198V96"/>
+                <path d="M460 96h20"/>
+              </g>
+              <rect x="440" y="62" width="122" height="28" fill="#ff4a00"/>
+              <text x="450" y="81" fill="#101410" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600">GUMIKLINIKA</text>
+              <g stroke="#101410" stroke-width="1" opacity=".5">
+                <path d="M0 0h34M0 0v34M600 0h-34M600 0v34M0 440h34M0 440v-34M600 440h-34M600 440v-34"/>
+              </g>
+            </svg>
+            <figcaption>Sematikus vázlat · nem méretarányos</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="disclaimer">
+    <div class="hazard" aria-hidden="true"></div>
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">GK</span>
+        <p>Webdesign-koncepció a Gumiklinika Bt. számára.<br>Készült 2026-ban, bemutató céllal.</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-head">Fontos</p>
+        <p>Független, bemutató célú koncepció. Nem a Gumiklinika hivatalos weboldala, és nem áll kapcsolatban a vállalkozással. A szolgáltatások, árak, nyitvatartás és a munkalap demó-adatok.</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-head">Adatok / fotók</p>
+        <p>Adatok: nyilvános listák (Infobel, near-place), 2026. 10. 31.</p>
+        <p class="credits">Fotók: <a href="https://commons.wikimedia.org/wiki/File:Close_view_of_worn_tire_showing_tread_patterns_and_dirt_in_a_garage_setting.jpg" target="_blank" rel="noopener">Shixart1985 / futófelület</a> (CC BY 2.0), <a href="https://commons.wikimedia.org/wiki/File:Machine_is_used_for_checking_tire_alignment_at_a_garage_in_a_busy_city.jpg" target="_blank" rel="noopener">Shixart1985 / műhely</a> (CC BY 2.0), <a href="https://commons.wikimedia.org/wiki/File:Winter_tires_with_North_American_symbol.jpg" target="_blank" rel="noopener">A7N8X</a> (CC BY-SA 3.0).</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-head">Oldalak</p>
+        <ul>
+          <li><a href="#szolgaltatasok">01 / Szolgáltatások</a></li>
+          <li><a href="#profilmero">02 / Profilmérő</a></li>
+          <li><a href="#idoppont">03 / Időpont</a></li>
+          <li><a href="#kapcsolat">04 / Kapcsolat</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <p>© 2026 · Független koncepció · Nem hivatalos oldal</p>
+      <p>GK-2026 / DEMO</p>
+      <a href="#top">Vissza a tetejére ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
